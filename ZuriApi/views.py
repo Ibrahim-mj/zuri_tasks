@@ -17,8 +17,8 @@ def info_render(request):
         current_day = date.strftime('%A')
         utc_time = date.strftime('%Y-%m-%dT%H:%M:%SZ')
         track = track
-        github_file_url = None
-        github_repo_url = None
+        github_file_url = 'https://github.com/Ibrahim-mj/zuri_tasks/blob/main/ZuriApi/views.py'
+        github_repo_url = 'https://github.com/Ibrahim-mj/zuri_tasks'
         status_code = 200
 
         context = {
