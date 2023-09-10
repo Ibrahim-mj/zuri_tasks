@@ -1,7 +1,7 @@
-from django.urls import path
+from django.urls import re_path
 
 from . import views
 
 urlpatterns = [
-    path('api', views.info_render, name='info'),
+    re_path(r'^api\?$', views.info_render, name='info'),
 ]
