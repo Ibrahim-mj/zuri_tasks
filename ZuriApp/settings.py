@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-!enbfh2dn!loeea-8wh%d^(*i-)l)ehzmn5^ikto@cepext1e*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['zuritask.up.railway.app',]
+ALLOWED_HOSTS = ['zuritask.up.railway.app', '127.0.0.1', 'localhost']
 
 
 # Application definition

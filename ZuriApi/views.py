@@ -7,7 +7,7 @@ import datetime
 
 # Create your views here.
 
-def info_render(request):
+def info_render(request, slack_name, track):
     date = datetime.datetime.now()
     slack_name = request.GET.get('slack_name',)
     track = request.GET.get('track', None)
